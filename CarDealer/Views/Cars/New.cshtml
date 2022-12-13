@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sell Your Car!</title>
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+      crossorigin="anonymous">
+  </head>
+  <body>
+    <h2>List A Car With Us</h2>
+    <form action="/cars/new" method="post">
+      <label for="makeModel">Make & Model</label>
+      <input id="makeModel" name="makeModel" type="text">
+      <label for="year">Year</label>
+      <input id="year" name="year" type="text">
+      <label for="miles">Mileage</label>
+      <input id="miles" name="miles" type="text">
+      <label for="price">Price</label>
+      <input id="price" name="price" type="text">
+      <label for="description">Description</label>
+      <input id="description" name="description" type="text">
+      <button type="submit" >List Your Car</button>
+    </form>
+  </body>
+</html>
